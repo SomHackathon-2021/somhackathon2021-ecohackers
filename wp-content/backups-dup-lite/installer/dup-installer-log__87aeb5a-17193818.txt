@@ -1,0 +1,692 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 07:43:13
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.11                                |7.4.11
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2021-04-17 19:38:18
+WP VERSION__________: 5.7.1
+DUP VERSION_________: 1.4.0
+DB__________________: 10.1.38
+DB TABLES___________: 46
+DB ROWS_____________: 1,430
+DB FILE SIZE________: 5.44MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.11 | SAPI: fpm-fcgi
+PHP MEMORY__________: 192M | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Debian)
+DOC ROOT____________: "/usr/home/savealong.com/web"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://savealong.com.mialias.net/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/usr/home/savealong.com/web/20210417_savealong_[HASH]_20210417193818_archive.zip"
+SIZE________________: 50.3MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/usr/home/savealong.com/web/20210417_savealong_[HASH]_20210417193818_archive.zip"
+SIZE________________: 50.3MBFile timestamp set to Current: 2021-04-17 19:43:15
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 07:43:17 - RUNTIME: 4.0675 sec.
+[PHP ERR][WARN] MSG:set_time_limit() has been disabled for security reasons [CODE:2|FILE:/usr/home/savealong.com/web/dup-installer/classes/config/class.constants.php|LINE:71]
+[PHP ERR][WARN] MSG:set_time_limit() has been disabled for security reasons [CODE:2|FILE:/usr/home/savealong.com/web/dup-installer/classes/config/class.constants.php|LINE:71]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 07:43:50
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.1.26 -- Build Server: 10.1.38
+FILE SIZE:	dup-database__[HASH].sql (2.38MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/usr/home/savealong.com/web/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [10.1.26] is less than the build version [10.1.38].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	1494
+
+wp_actionscheduler_actions: (2)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (1)
+wp_actionscheduler_logs: (2)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (427)
+wp_postmeta: (574)
+wp_posts: (141)
+wp_pv_commission: (0)
+wp_term_relationships: (12)
+wp_term_taxonomy: (20)
+wp_termmeta: (13)
+wp_terms: (20)
+wp_usermeta: (77)
+wp_users: (2)
+wp_wc_admin_note_actions: (19)
+wp_wc_admin_notes: (18)
+wp_wc_category_lookup: (4)
+wp_wc_customer_lookup: (1)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (0)
+wp_wc_order_stats: (0)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (4)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woo_ua_auction_log: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (2)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+Removed '103' cache/transient rows
+
+INSERT DATA RUNTIME: 2.2256 sec.
+STEP-2 COMPLETE @ 07:43:52 - RUNTIME: 2.2319 sec.
+[PHP ERR][WARN] MSG:set_time_limit() has been disabled for security reasons [CODE:2|FILE:/usr/home/savealong.com/web/dup-installer/classes/config/class.constants.php|LINE:71]
+[PHP ERR][WARN] MSG:set_time_limit() has been disabled for security reasons [CODE:2|FILE:/usr/home/savealong.com/web/dup-installer/classes/config/class.constants.php|LINE:71]
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 07:44:00
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Save Along"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/usr/home/safealong.com/web"
+path_new______________: "/usr/home/savealong.com/web"
+siteurl_______________: "http://savealong.com.mialias.net"
+url_old_______________: "http://www.safealong.com.mialias.net"
+url_new_______________: "http://savealong.com.mialias.net"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   427][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   574][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   141][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_pv_commission"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    77][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo_ua_auction_log"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/usr/home/safealong.com/web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  2:"\/usr\/home\/safealong.com\/web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  3:"%2Fusr%2Fhome%2Fsafealong.com%2Fweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  4:"\usr\home\safealong.com\web" =====================> "/usr/home/savealong.com/web"
+	SEARCH  5:"\\usr\\home\\safealong.com\\web" =================> "\/usr\/home\/savealong.com\/web"
+	SEARCH  6:"%5Cusr%5Chome%5Csafealong.com%5Cweb" =============> "%2Fusr%2Fhome%2Fsavealong.com%2Fweb"
+	SEARCH  7:"//www.safealong.com.mialias.net" =================> "//savealong.com.mialias.net"
+	SEARCH  8:"\/\/www.safealong.com.mialias.net" ===============> "\/\/savealong.com.mialias.net"
+	SEARCH  9:"%2F%2Fwww.safealong.com.mialias.net" =============> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 10:"//safealong.com.mialias.net" =====================> "//savealong.com.mialias.net"
+	SEARCH 11:"\/\/safealong.com.mialias.net" ===================> "\/\/savealong.com.mialias.net"
+	SEARCH 12:"%2F%2Fsafealong.com.mialias.net" =================> "%2F%2Fsavealong.com.mialias.net"
+	SEARCH 13:"https://savealong.com.mialias.net" ===============> "http://savealong.com.mialias.net"
+	SEARCH 14:"https:\/\/savealong.com.mialias.net" =============> "http:\/\/savealong.com.mialias.net"
+	SEARCH 15:"https%3A%2F%2Fsavealong.com.mialias.net" =========> "http%3A%2F%2Fsavealong.com.mialias.net"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:46 	|	 Rows:1342 	|	 Cells:8446 
+UPDATED:	Tables:4 	|	 Rows:178 	|	 Cells:228 
+ERRORS:		0 
+RUNTIME:	0.103900 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:44:00 - RUNTIME: 0.1547 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
+[PHP ERR][WARN] MSG:set_time_limit() has been disabled for security reasons [CODE:2|FILE:/usr/home/savealong.com/web/dup-installer/classes/config/class.constants.php|LINE:71]

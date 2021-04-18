@@ -1,0 +1,56 @@
+# Translation of Plugins - Woo Product Table &#8211; Free WooCommerce Table view solution - Development (trunk) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Woo Product Table &#8211; Free WooCommerce Table view solution - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-11-22 16:26:31+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Woo Product Table &#8211; Free WooCommerce Table view solution - Development (trunk)\n"
+
+#. Tags of the plugin/theme
+msgid "woocommerce product,woocommerce product table, product table"
+msgstr "woocommerce product,woocommerce product table, product table"
+
+#. Author URI of the plugin/theme
+msgid "https://profiles.wordpress.org/codersaiful"
+msgstr "https://profiles.wordpress.org/codersaiful"
+
+#. Author of the plugin/theme
+msgid "Saiful Islam"
+msgstr "Saiful Islam"
+
+#. Description of the plugin/theme
+msgid "WooCommerce all products display as a table in one page by shortcode. Fully responsive and mobile friendly. Easily customizable - color,background,title,text color etc."
+msgstr "Muestra todos los productos de WooCommerce como una tabla en una página mediante un shortcode. Totalmente adaptable y amigable para móviles. Fácilmente personalizable - color, fondo, título, color de texto, etc."
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/woo-product-table"
+msgstr "https://es.wordpress.org/plugins/woo-product-table"
+
+#. Plugin Name of the plugin/theme
+msgid "WOO Product Table"
+msgstr "WOO Product Table"
+
+#: includes/shortcode.php:52
+msgid "Action"
+msgstr "Acción"
+
+#: includes/shortcode.php:51
+msgid "Qty"
+msgstr "Cantidad"
+
+#: includes/shortcode.php:50
+msgid "Price"
+msgstr "Precio"
+
+#: includes/shortcode.php:49
+msgid "Product Name"
+msgstr "Nombre del producto"
+
+#: includes/shortcode.php:48
+msgid "Serial Number"
+msgstr "Número de serie"

@@ -1,0 +1,9 @@
+
+v1.2.3
+- Remove welcome notice.
+- Improve mobile menu.
+- Remove remove upsell.
+- Remove welcome notice.
+
+v1.0.0
+- Release.
